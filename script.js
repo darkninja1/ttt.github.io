@@ -13,6 +13,7 @@ function play(id) {
     }
     else {
       turns += 1;
+      turn += 1;
       document.getElementById(id).style.backgroundColor = "#00ff8c";
       p1.push(id);
       end();
@@ -24,6 +25,7 @@ function play(id) {
     }
     else {
       turns += 1;
+      turn -= 1;
       document.getElementById(id).style.backgroundColor = "#e600ff";
       p2.push(id);
       end();
