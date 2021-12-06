@@ -47,7 +47,7 @@ function end() {
   }
   else if (turns == 9) {
     document.getElementById('draw').style.display = 'block';
-    setTimeout(w3,5000)
+    setTimeout(w3,2500)
   }
 }
 
