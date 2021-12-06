@@ -7,7 +7,6 @@ body,html {
 .board {
     margin: auto;
     width: 490px;
-    display:none;
 }
 
 .board button {
@@ -24,7 +23,6 @@ body,html {
     font-size: 3rem;
     margin-bottom: 1rem;
     text-align: center;
-    display:none;
 }
 #message2 {
   background-color:rgb(26, 24, 24);
