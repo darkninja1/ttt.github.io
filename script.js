@@ -47,7 +47,7 @@ function end() {
   }
   else if (turns == 9) {
     document.getElementById('draw').style.display = 'block';
-        setTimeout(newg,5000)
+    setTimeout(w3,5000)
   }
 }
 
@@ -65,6 +65,13 @@ function w2() {
   document.getElementById('win').style.display = 'none';
   document.getElementById('lose').style.transform = 'rotate(-180deg)';
   document.getElementById('lose').style.display = 'block';
+  setTimeout(newg,5000)
+}
+
+
+
+function w3() {
+  document.getElementById('draw').style.transform = 'rotate(-180deg)';
   setTimeout(newg,5000)
 }
 
