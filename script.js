@@ -6,28 +6,28 @@ var turns = 0;
 
 
 
-function play(id) {
+function play(id2) {
   if (turn == 1) {
-    if (p2.includes(id)) {
+    if (p2.includes(id2)) {
       alert1('Invalid Move');
     }
     else {
       turns += 1;
       turn += 1;
-      document.getElementById(id).style.backgroundColor = "#00ff8c";
-      p1.push(id);
+      document.getElementById(id2).style.backgroundColor = "#00ff8c";
+      p1.push(id2);
       end();
     }
   }
   else if (turn == 2) {
-    if (p1.includes(id)) {
+    if (p1.includes(id2)) {
       alert1('Invalid Move');
     }
     else {
       turns += 1;
       turn -= 1;
-      document.getElementById(id).style.backgroundColor = "#e600ff";
-      p2.push(id);
+      document.getElementById(id2).style.backgroundColor = "#e600ff";
+      p2.push(id2);
       end();
     }
   }
