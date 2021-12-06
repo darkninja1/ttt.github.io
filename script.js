@@ -6,7 +6,7 @@ var turns = 0;
 
 
 
-function play(id2) {
+function play1(id2) {
   if (turn == 1) {
     if (p2.includes(id2)) {
       alert1('Invalid Move');
